@@ -23,6 +23,12 @@ for movie in rows:
     print('Showtimes: ' + str(showtimes))
 
 """
+Roadmap-
+1. Pull in theater page
+2. Focus on movies and showtimes as individual tr's.
+3. Iterate through each row pulling the name and individual showtimes.
+4. Add to list. name = [0], showtime1 = [1], etc
+
 TODO-
 - Pull in RottenTomatoes or IMDB rating
 - Note if the movie came out in the last 3 days
